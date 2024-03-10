@@ -17,10 +17,10 @@ jobs:
         make lint
     - name: Test with pytest
       run: |
-        #make test
+        make test
     - name: Format Code
       run: |
-        #make format
+        make format
     - name: Deploy
       run: |
         #make deploy
