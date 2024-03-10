@@ -1,5 +1,6 @@
 install:
 	#Install Commands
+	pip install --upgrade pip && pip install -r requirements.txt
 format:
 	#Format Code
 lint:
