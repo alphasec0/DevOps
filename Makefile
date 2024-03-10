@@ -17,7 +17,10 @@ build:
 	docker build -t deploy-fastapi .
 run:
 	#Run docker
-	docker run -p 127.0.0.1:8080:8080 b176a30ba184
+	#Github CodeSapce
+	#docker run -p 127.0.0.1:8080:8080 b176a30ba184 
+	#My M2
+	docker run -p 127.0.0.1:8080:8080 392df40026f1
 deploy:
 	#deploy
 all: install lint test deploy
